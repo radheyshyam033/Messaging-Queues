@@ -46,8 +46,6 @@ message bus messages are transfer from one to many receivers
 
 ## Reference Links
 
-[aws.amazon.com](https://aws.amazon.com/message-queue/)
-
-[www.tutorialspoint.com](https://www.tutorialspoint.com/inter_process_communication/inter_process_communication_message_queues.htm)
-
-[stackify.com](https://stackify.com/message-queues-12-reasons/)
+- [aws.amazon.com](https://aws.amazon.com/message-queue/)
+- [www.tutorialspoint.com](https://www.tutorialspoint.com/inter_process_communication/inter_process_communication_message_queues.htm)
+- [stackify.com](https://stackify.com/message-queues-12-reasons/)
