@@ -10,7 +10,21 @@
   
   
  ## Why they are used?
-  If we use shared memory instead of the messaging queue then share memory is accessed only in synchronous or very less time access in asynchronous so we use a messaging queue for more reliability, scalability, and improving performance. 
+  If we use shared memory instead of the messaging queue then share memory is accessed only in synchronous or very less time access in asynchronous so we use a messaging queue for more reliability, scalability, and improving performance.
+  - **Improve Web Application Page Load Times :**
+  Messaging Queue is a lightweight code application so it loaded on web applications easily so messaging queues also improve web application page load time.
+  - **Batching for Efficiency :**
+  Branching plays a very important role in the messaging queue is that if we want to add many records at a particular time then it insert one by one and it takes more time so branching help to upload task on various branches.
+  - **Asynchronous Messaging :**
+  Queue play an important role in the messaging queue because if messages are sent by the sender then that message is stored in the queue and the receiver easily receive the message after some delay in time.
+ - **Traffic :**
+ By Messaging queue we easily handle traffic, if traffic is increased on your application then we have no way to know what are client sends us so we use the queue to store the client data and process eventually, which means takes a longer time to evaluate due to more traffic.
+ 
+ - **Break Large Task into Many Small Task :**
+ The use of Queue helps break large tasks into many small tasks to easily handle 
+ - **Monitoring : **
+ Messaging queue system monitor how many items are in a queue and also processes the rate of messages and other status show. This can be very helpful from an application monitoring standpoint to keep an eye on how data is flowing through your system and if it is getting backed up or not. 
+ 
  
  ## What are popular tools?
   Some most popular tools for messaging queues are...
