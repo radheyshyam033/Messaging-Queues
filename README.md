@@ -22,7 +22,7 @@
  
  - **Break Large Task into Many Small Task :**
  The use of Queue helps break large tasks into many small tasks to easily handle 
- - **Monitoring : **
+ - **Monitoring :**
  Messaging queue system monitor how many items are in a queue and also processes the rate of messages and other status show. This can be very helpful from an application monitoring standpoint to keep an eye on how data is flowing through your system and if it is getting backed up or not. 
  
  
@@ -37,5 +37,10 @@
 - Celery
 
 ## What is Enterprise Message  Bus?
-  A Messaging Bus or Enterprise service bus implements a communication system between one or more applications. Messaging queue contains FIFO(first in first out) rule but in Messaging bus does not contain FIFO. Messaging bus is a one to many modal of distribution
+  A Messaging Bus or Enterprise service bus implements a communication system between one or more applications. Messaging  Queue creates the message bus. Clients (i.e. nodes) can then listen to the message bus. 
+  
+  ![Message Bus](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO3FfKT2krqjDmVkcFhZmqhNIWQy-R4lzHFw&usqp=CAU)
+  
+  This is particularly true for the case where you have a message queue broadcasting messages through UDP, in other words, it is sending messages to a broadcast/multicast address without knowing or caring who is going to be getting them.  Messaging queue contains FIFO(first in first out) rule but in Messaging bus does not contain FIFO. Messaging bus is a one to many modal of distribution
+message bus messages are transfer from one to many receivers 
 
