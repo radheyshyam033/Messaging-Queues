@@ -2,7 +2,11 @@
 ## What is a Messaging Queues?
 
   A messaging queue is a asynchronous processing to communicate by sending messages to each other using a queue. All the processes do not need to access the shared memory but very few processes only need it, so it would be better to implement with message queues because messaging queue provide temporary storage and share memory data need to be protected when synchronous processing with multiple processes communicating at the same time.
+  
+  ![Messaging Queue](https://www.tutorialspoint.com/inter_process_communication/images/message_queue.jpg)
+  
   A message queue provides a lightweight buffer that temporarily stores messages, during communication between sender and receiver. Messaging Queue order is FIFO means first in first out, means when the first messages are inserted in queue is display first to the receiver side.
+  
   
   
  ## Why they are used?
