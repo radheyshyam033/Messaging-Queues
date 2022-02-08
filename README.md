@@ -44,3 +44,10 @@
   This is particularly true for the case where you have a message queue broadcasting messages through UDP, in other words, it is sending messages to a broadcast/multicast address without knowing or caring who is going to be getting them.  Messaging queue contains FIFO(first in first out) rule but in Messaging bus does not contain FIFO. Messaging bus is a one to many modal of distribution
 message bus messages are transfer from one to many receivers 
 
+## Reference Links
+
+[aws.amazon.com](https://aws.amazon.com/message-queue/)
+
+[www.tutorialspoint.com](https://www.tutorialspoint.com/inter_process_communication/inter_process_communication_message_queues.htm)
+
+[stackify.com](https://stackify.com/message-queues-12-reasons/)
